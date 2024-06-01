@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARIABLE NAMES: LEGAL & ILLEGAL</title>
+</head>
+<body>
+    <script>
+     // 1. Declare 3 variables in one statement.
+         var x = 2;
+         var y = 4;
+         var z = 6;
+
+     // 2. Declare 5 legal & 5 illegal variable names.
+    //    Legal Variable:
+          var studentname = "";
+          var UserName1 = "";
+          var instituteName=  "";
+          var $course = "";
+          var Email_Id = "";
+          
+    //  Illegal Variable:
+        // var 2username = "";          /* Dont Use Number before Variable name*/
+        // var institute Name = "";        /*  variable name can't contain any spaces.*/
+        // var @email = "";           dont use at the rate (@)sign
+        // var +timings ="";             Dont use Mathematicall Operator
+        // var .option = "";    dont use any dot, comma etc
+
+//    3. Display this in your browser
+//    a) A heading stating “Rules for naming JS variables”
+      var heading = "<h2>Rules for naming JS variables</h2>";
+      document.write(heading);
+
+// b)  Variable names can only contain ______, ______,
+//     ______ and ______.
+//     For example $my_1stVariable
+     var nameContain= "Variable names can only contain , numbers,$ and _ . For Example $my_1stVariable";
+     document.write(nameContain);
+
+// c)  Variables must begin with a ______, ______ or
+//     _____. For example $name, _name or name
+       var varstart= "<br>Variable must begin with a letter , $ or _ . For example : $name, _name or name"
+      document.write(varstart);
+
+// d) Variable names are case _________
+      var casesensitive = "<br>Variable names are case sensitive";
+      document.write(casesensitive);
+
+// e) Variable names should not be JS _________
+      var reservedkeywords = "<br>Variable names should not be JS keywords";
+      document.write(reservedkeywords);
+ </script>
+    
+</body>
+</html>
